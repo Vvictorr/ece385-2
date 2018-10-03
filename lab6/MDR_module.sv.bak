@@ -1,0 +1,10 @@
+//MDR takes in 16-bit DATA from SRAM (or switches)
+module MDR_module(input logic [15:0] MDR_In,
+						input logic 
+						
+ logic [15:0] MDR;
+ 
+ always_comb begin
+	
+
+

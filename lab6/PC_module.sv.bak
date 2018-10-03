@@ -1,0 +1,8 @@
+//PC is 16-bit register that holds ADDRESS
+module PC_module(
+			input logic [19:0] ADDR,
+			output logic [15:0] PC
+			);
+			
+			
+			

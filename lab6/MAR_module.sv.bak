@@ -1,0 +1,2 @@
+module  MAR_module(input logic Reset, Load,
+						  
