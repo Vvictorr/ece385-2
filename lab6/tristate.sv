@@ -24,15 +24,15 @@ module tristate #(N = 16) (
 // Registers are needed between synchronized circuit and asynchronized SRAM 
 logic [N-1:0] Data_write_buffer, Data_read_buffer;
 
-always_ff @(posedge Clk) begin
+always_ff @(posedge Clk)
+begin
 	// Always read data from the bus
 	Data_read_buffer <= Data;
 	// Always updated with the data from Mem2IO which will be written to the bus
 	Data_write_buffer <= Data_write;
 end
 
-// Drive (write) Data bus only when tristate_output_enable is active.
-//set data to high z mode when not writing to bus (during read)
+// Drive (write to) Data bus only when tristate_output_enable is active.
 assign Data = tristate_output_enable ? Data_write_buffer : {N{1'bZ}};
 
 assign Data_read = Data_read_buffer;

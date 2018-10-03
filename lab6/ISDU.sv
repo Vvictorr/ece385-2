@@ -16,18 +16,17 @@
 //------------------------------------------------------------------------------
 
 
-module ISDU (
-				input logic  Clk, 
-								 Reset,
-								 Run,
-								 Continue,
+module ISDU (   input logic         Clk, 
+									Reset,
+									Run,
+									Continue,
 									
-				input logic [3:0]   Opcode, 
+				input logic[3:0]    Opcode, 
 				input logic         IR_5,
 				input logic         IR_11,
 				input logic         BEN,
 				  
-				output logic   LD_MAR,
+				output logic        LD_MAR,
 									LD_MDR,
 									LD_IR,
 									LD_BEN,
@@ -36,20 +35,20 @@ module ISDU (
 									LD_PC,
 									LD_LED, // for PAUSE instruction
 									
-				output logic   GatePC,
+				output logic        GatePC,
 									GateMDR,
 									GateALU,
 									GateMARMUX,
 									
 				output logic [1:0]  PCMUX,
 				output logic        DRMUX,
-										  SR1MUX,
-										  SR2MUX,
-										  ADDR1MUX,
+									SR1MUX,
+									SR2MUX,
+									ADDR1MUX,
 				output logic [1:0]  ADDR2MUX,
-										  ALUK,
+									ALUK,
 				  
-				output logic   Mem_CE,
+				output logic        Mem_CE,
 									Mem_UB,
 									Mem_LB,
 									Mem_OE,
@@ -57,23 +56,25 @@ module ISDU (
 				);
 
 	enum logic [3:0] {  Halted, 
-							  PauseIR1, 
-							  PauseIR2, 
-							  S_18, 
-							  S_33_1, 
-							  S_33_2, 
-							  S_35, 
-							  S_32, 
-							  S_01}   State, Next_state;   // Internal state logic
+						PauseIR1, 
+						PauseIR2, 
+						S_18, 
+						S_33_1, 
+						S_33_2, 
+						S_35, 
+						S_32, 
+						S_01}   State, Next_state;   // Internal state logic
 		
-	always_ff @ (posedge Clk) begin
+	always_ff @ (posedge Clk)
+	begin
 		if (Reset) 
 			State <= Halted;
 		else 
 			State <= Next_state;
 	end
    
-	always_comb begin 
+	always_comb
+	begin 
 		// Default next state is staying at current state
 		Next_state = State;
 		
@@ -100,8 +101,7 @@ module ISDU (
 		SR2MUX = 1'b0;
 		ADDR1MUX = 1'b0;
 		ADDR2MUX = 2'b00;
-		
-		//default values are high b/c they are active low
+		 
 		Mem_OE = 1'b1;
 		Mem_WE = 1'b1;
 	
@@ -134,7 +134,7 @@ module ISDU (
 					Next_state = S_18;
 			S_32 : 
 				case (Opcode)
-					4'b0001 : //add
+					4'b0001 : 
 						Next_state = S_01;
 
 					// You need to finish the rest of opcodes.....
@@ -162,7 +162,7 @@ module ISDU (
 					LD_PC = 1'b1;
 				end
 			S_33_1 : 
-					Mem_OE = 1'b0;
+				Mem_OE = 1'b0;
 			S_33_2 : 
 				begin 
 					Mem_OE = 1'b0;

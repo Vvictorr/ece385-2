@@ -27,7 +27,7 @@ module slc3(
 );
 
 // Declaration of push button active high signals
-logic Reset_ah, Continue_ah, Run_ah; 
+logic Reset_ah, Continue_ah, Run_ah;
 
 assign Reset_ah = ~Reset;
 assign Continue_ah = ~Continue;
@@ -74,14 +74,7 @@ assign MIO_EN = ~OE;
 
 // You need to make your own datapath module and connect everything to the datapath
 // Be careful about whether Reset is active high or low
-datapath d0(.Clk(Clk), .Reset(Reset_ah), .S(S),
-				.LD_MAR, .LD_MDR, .LD_IR, .LD_BEN, .LD_CC, .LD_REG, .LD_PC, .LD_LED,  
-				.GatePC, .GateMDR, .GateALU, .GateMARMUX,
-				.PCMUX,
-				.MDR_In,
-				
-				.PC, .MAR
-			  ); 
+datapath d0 (/* Please fill in the signals.... */);
 
 // Our SRAM and I/O controller
 Mem2IO memory_subsystem(

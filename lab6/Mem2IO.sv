@@ -13,35 +13,33 @@
 //-------------------------------------------------------------------------
 
 
-module  Mem2IO (
-					input logic Clk, Reset,
+module  Mem2IO ( 	input logic Clk, Reset,
 					input logic [19:0]  ADDR, 
 					input logic CE, UB, LB, OE, WE,
 					input logic [15:0]  Switches,
 					input logic [15:0] Data_from_CPU, Data_from_SRAM,
 					output logic [15:0] Data_to_CPU, Data_to_SRAM,
-					output logic [3:0]  HEX0, HEX1, HEX2, HEX3
-					);
+					output logic [3:0]  HEX0, HEX1, HEX2, HEX3 );
 
 	logic [15:0] hex_data;
    
-	// READ data from switches when address is xFFFF, and from SRAM otherwise.
+	// Load data from switches when address is xFFFF, and from SRAM otherwise.
 	always_comb
     begin 
         Data_to_CPU = 16'd0;
-        if (WE && ~OE) 		//if WE enabled, WE = 0 so this read from SRAM would not occur
+        if (WE && ~OE) 
 			if (ADDR[15:0] == 16'hFFFF) 
 				Data_to_CPU = Switches;
 			else 
 				Data_to_CPU = Data_from_SRAM;
     end
 
-    // Pass data from CPU to SRAM (for WRITE)
+    // Pass data from CPU to SRAM
 	assign Data_to_SRAM = Data_from_CPU;
 
-	// WRITE to LEDs when WE is active and address is xFFFF.
+	// Write to LEDs when WE is active and address is xFFFF.
 	always_ff @ (posedge Clk) begin 
-		if (Reset) //reset here is active high
+		if (Reset) 
 			hex_data <= 16'd0;
 		else if ( ~WE & (ADDR[15:0] == 16'hFFFF) ) 
 			hex_data <= Data_from_CPU;
