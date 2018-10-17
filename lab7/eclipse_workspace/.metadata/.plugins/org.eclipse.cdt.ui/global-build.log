@@ -1,0 +1,6 @@
+14:17:57 **** Clean-only build of configuration Nios II for project lab7_app_bsp ****
+make clean 
+[BSP clean complete]
+14:18:00 **** Clean-only build of configuration Nios II for project lab7_app ****
+make clean 
+[lab7_app clean complete]
