@@ -1,0 +1,95 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+# File: C:\intelFPGA_lite\18.0\lab7\lab7.csv
+# Generated on: Tue Oct 16 23:40:22 2018
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+CLOCK_50,Input,PIN_Y2,2,B2_N0,PIN_J1,,,,,,
+DRAM_ADDR[12],Output,PIN_Y7,2,B2_N2,PIN_C10,,,,,,
+DRAM_ADDR[11],Output,PIN_AA5,2,B2_N2,PIN_E12,,,,,,
+DRAM_ADDR[10],Output,PIN_R5,2,B2_N0,PIN_J12,,,,,,
+DRAM_ADDR[9],Output,PIN_Y6,2,B2_N2,PIN_E11,,,,,,
+DRAM_ADDR[8],Output,PIN_Y5,2,B2_N2,PIN_A10,,,,,,
+DRAM_ADDR[7],Output,PIN_AA7,2,B2_N2,PIN_H13,,,,,,
+DRAM_ADDR[6],Output,PIN_W7,2,B2_N2,PIN_G13,,,,,,
+DRAM_ADDR[5],Output,PIN_W8,2,B2_N2,PIN_E14,,,,,,
+DRAM_ADDR[4],Output,PIN_V5,2,B2_N1,PIN_A11,,,,,,
+DRAM_ADDR[3],Output,PIN_P1,1,B1_N2,PIN_D10,,,,,,
+DRAM_ADDR[2],Output,PIN_U8,2,B2_N1,PIN_B11,,,,,,
+DRAM_ADDR[1],Output,PIN_V8,2,B2_N1,PIN_J13,,,,,,
+DRAM_ADDR[0],Output,PIN_R6,2,B2_N0,PIN_B10,,,,,,
+DRAM_BA[1],Output,PIN_R4,2,B2_N0,PIN_C12,,,,,,
+DRAM_BA[0],Output,PIN_U7,2,B2_N1,PIN_A12,,,,,,
+DRAM_CAS_N,Output,PIN_V7,2,B2_N1,PIN_A7,,,,,,
+DRAM_CKE,Output,PIN_AA6,2,B2_N2,PIN_R27,,,,,,
+DRAM_CLK,Output,PIN_AE5,3,B3_N2,PIN_AE5,,,,,,
+DRAM_CS_N,Output,PIN_T4,2,B2_N0,PIN_F11,,,,,,
+DRAM_DQ[31],Bidir,PIN_U1,2,B2_N0,PIN_H23,,,,,,
+DRAM_DQ[30],Bidir,PIN_U4,2,B2_N0,PIN_AH26,,,,,,
+DRAM_DQ[29],Bidir,PIN_T3,2,B2_N0,PIN_AF17,,,,,,
+DRAM_DQ[28],Bidir,PIN_R3,2,B2_N0,PIN_B23,,,,,,
+DRAM_DQ[27],Bidir,PIN_R2,2,B2_N0,PIN_A21,,,,,,
+DRAM_DQ[26],Bidir,PIN_R1,2,B2_N0,PIN_E8,,,,,,
+DRAM_DQ[25],Bidir,PIN_R7,2,B2_N0,PIN_D24,,,,,,
+DRAM_DQ[24],Bidir,PIN_U5,2,B2_N1,PIN_R22,,,,,,
+DRAM_DQ[23],Bidir,PIN_L7,1,B1_N2,PIN_H16,,,,,,
+DRAM_DQ[22],Bidir,PIN_M7,1,B1_N2,PIN_D23,,,,,,
+DRAM_DQ[21],Bidir,PIN_M4,1,B1_N1,PIN_D13,,,,,,
+DRAM_DQ[20],Bidir,PIN_N4,1,B1_N2,PIN_AD7,,,,,,
+DRAM_DQ[19],Bidir,PIN_N3,1,B1_N2,PIN_W4,,,,,,
+DRAM_DQ[18],Bidir,PIN_P2,1,B1_N2,PIN_U7,,,,,,
+DRAM_DQ[17],Bidir,PIN_L8,1,B1_N2,PIN_U22,,,,,,
+DRAM_DQ[16],Bidir,PIN_M8,1,B1_N2,PIN_G4,,,,,,
+DRAM_DQ[15],Bidir,PIN_AC2,2,B2_N1,PIN_B8,,,,,,
+DRAM_DQ[14],Bidir,PIN_AB3,2,B2_N1,PIN_C7,,,,,,
+DRAM_DQ[13],Bidir,PIN_AC1,2,B2_N1,PIN_D9,,,,,,
+DRAM_DQ[12],Bidir,PIN_AB2,2,B2_N0,PIN_A6,,,,,,
+DRAM_DQ[11],Bidir,PIN_AA3,2,B2_N1,PIN_D11,,,,,,
+DRAM_DQ[10],Bidir,PIN_AB1,2,B2_N0,PIN_C11,,,,,,
+DRAM_DQ[9],Bidir,PIN_Y4,2,B2_N1,PIN_H12,,,,,,
+DRAM_DQ[8],Bidir,PIN_Y3,2,B2_N1,PIN_G11,,,,,,
+DRAM_DQ[7],Bidir,PIN_U3,2,B2_N0,PIN_G12,,,,,,
+DRAM_DQ[6],Bidir,PIN_V1,2,B2_N0,PIN_G10,,,,,,
+DRAM_DQ[5],Bidir,PIN_V2,2,B2_N0,PIN_F10,,,,,,
+DRAM_DQ[4],Bidir,PIN_V3,2,B2_N0,PIN_J10,,,,,,
+DRAM_DQ[3],Bidir,PIN_W1,2,B2_N1,PIN_C9,,,,,,
+DRAM_DQ[2],Bidir,PIN_V4,2,B2_N0,PIN_H10,,,,,,
+DRAM_DQ[1],Bidir,PIN_W2,2,B2_N0,PIN_B6,,,,,,
+DRAM_DQ[0],Bidir,PIN_W3,2,B2_N2,PIN_B7,,,,,,
+DRAM_DQM[3],Output,PIN_N8,1,B1_N2,PIN_AF21,,,,,,
+DRAM_DQM[2],Output,PIN_K8,1,B1_N2,PIN_AB17,,,,,,
+DRAM_DQM[1],Output,PIN_W4,2,B2_N2,PIN_H14,,,,,,
+DRAM_DQM[0],Output,PIN_U2,2,B2_N0,PIN_J14,,,,,,
+DRAM_RAS_N,Output,PIN_U6,2,B2_N1,PIN_E10,,,,,,
+DRAM_WE_N,Output,PIN_V6,2,B2_N1,PIN_D8,,,,,,
+KEY[3],Input,PIN_R24,5,B5_N0,PIN_C4,,,,,,
+KEY[2],Input,PIN_N21,6,B6_N2,PIN_D21,,,,,,
+KEY[1],Input,,,,PIN_AC1,,,,,,
+KEY[0],Input,PIN_M23,6,B6_N2,PIN_F12,,,,,,
+LEDG[7],Output,PIN_G21,7,B7_N1,PIN_M8,,,,,,
+LEDG[6],Output,PIN_G22,7,B7_N2,PIN_L6,,,,,,
+LEDG[5],Output,PIN_G20,7,B7_N1,PIN_G7,,,,,,
+LEDG[4],Output,PIN_H21,7,B7_N2,PIN_M5,,,,,,
+LEDG[3],Output,PIN_E24,7,B7_N1,PIN_G14,,,,,,
+LEDG[2],Output,PIN_E25,7,B7_N1,PIN_A8,,,,,,
+LEDG[1],Output,PIN_E22,7,B7_N0,PIN_F14,,,,,,
+LEDG[0],Output,PIN_E21,7,B7_N0,PIN_L4,,,,,,
+altera_reserved_tck,Input,,,,PIN_P5,,,,,,
+altera_reserved_tdi,Input,,,,PIN_P7,,,,,,
+altera_reserved_tdo,Output,,,,PIN_P6,,,,,,
+altera_reserved_tms,Input,,,,PIN_P8,,,,,,
