@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="lab7_soc" kind="lab7_soc" version="1.0" fabric="QSYS">
  <!-- Format version 18.0 614 (Future versions may contain additional information.) -->
- <!-- 2018.10.15.16:50:28 -->
+ <!-- 2018.10.18.11:32:23 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1539640227</value>
+  <value>1539880343</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -5365,7 +5365,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SDRAM_ADDR_WIDTH</name>
-   <value>26</value>
+   <value>25</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SDRAM_BANK_WIDTH</name>
@@ -5377,7 +5377,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SDRAM_DATA_WIDTH</name>
-   <value>16</value>
+   <value>32</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SDRAM_NUM_BANKS</name>
@@ -5385,7 +5385,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SDRAM_NUM_CHIPSELECTS</name>
-   <value>2</value>
+   <value>1</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SDRAM_ROW_WIDTH</name>
@@ -5441,7 +5441,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_DATA_WIDTH</name>
-   <value>16</value>
+   <value>32</value>
   </assignment>
   <parameter name="TAC">
    <type>double</type>
@@ -5501,7 +5501,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataWidth">
    <type>int</type>
-   <value>16</value>
+   <value>32</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -5541,7 +5541,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="numberOfChipSelects">
    <type>int</type>
-   <value>2</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -5640,7 +5640,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="addressWidth">
    <type>int</type>
-   <value>26</value>
+   <value>25</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -6113,13 +6113,13 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>az_addr</name>
     <direction>Input</direction>
-    <width>26</width>
+    <width>25</width>
     <role>address</role>
    </port>
    <port>
     <name>az_be_n</name>
     <direction>Input</direction>
-    <width>2</width>
+    <width>4</width>
     <role>byteenable_n</role>
    </port>
    <port>
@@ -6131,7 +6131,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>az_data</name>
     <direction>Input</direction>
-    <width>16</width>
+    <width>32</width>
     <role>writedata</role>
    </port>
    <port>
@@ -6149,7 +6149,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>za_data</name>
     <direction>Output</direction>
-    <width>16</width>
+    <width>32</width>
     <role>readdata</role>
    </port>
    <port>
@@ -6230,19 +6230,19 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>zs_cs_n</name>
     <direction>Output</direction>
-    <width>2</width>
+    <width>1</width>
     <role>export</role>
    </port>
    <port>
     <name>zs_dq</name>
     <direction>Bidir</direction>
-    <width>16</width>
+    <width>32</width>
     <role>export</role>
    </port>
    <port>
     <name>zs_dqm</name>
     <direction>Output</direction>
-    <width>2</width>
+    <width>4</width>
     <role>export</role>
    </port>
    <port>
@@ -8227,7 +8227,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1539640227</value>
+   <value>1539880343</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -8247,7 +8247,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1539640227</value>
+   <value>1539880343</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -8263,7 +8263,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1539640227</value>
+   <value>1539880343</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>

@@ -278,8 +278,8 @@ int main()
 	int i = 0;
 10000068:	e03ffe15 	stw	zero,-8(fp)
 
-	volatile unsigned int *LED_PIO = (unsigned int*)0x20;
-1000006c:	00800804 	movi	r2,32
+	volatile unsigned int *LED_PIO = (unsigned int*)0x40;
+1000006c:	00801004 	movi	r2,64
 10000070:	e0bfff15 	stw	r2,-4(fp)
 	//make a pointer to access the PIO block
 

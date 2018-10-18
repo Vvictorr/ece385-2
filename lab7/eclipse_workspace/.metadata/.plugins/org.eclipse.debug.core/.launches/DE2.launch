@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchConfiguration">
-<booleanAttribute key="acceptBadTimestamp" value="true"/>
+<booleanAttribute key="acceptBadTimestamp" value="false"/>
 <booleanAttribute key="downloadProgram" value="true"/>
 <stringAttribute key="elfFile" value="C:\intelFPGA_lite\18.0\ece385\lab7\software\lab7_app\lab7_app.elf"/>
 <stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value=""/>
