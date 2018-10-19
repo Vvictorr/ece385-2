@@ -12,7 +12,8 @@ module lab7_soc (
 	sdram_wire_dq,
 	sdram_wire_dqm,
 	sdram_wire_ras_n,
-	sdram_wire_we_n);	
+	sdram_wire_we_n,
+	fpga_input_export);	
 
 	input		clk_clk;
 	output	[7:0]	led_wire_export;
@@ -27,4 +28,5 @@ module lab7_soc (
 	output	[3:0]	sdram_wire_dqm;
 	output		sdram_wire_ras_n;
 	output		sdram_wire_we_n;
+	input	[19:0]	fpga_input_export;
 endmodule

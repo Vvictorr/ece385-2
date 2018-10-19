@@ -20,14 +20,19 @@ module lab7(  	  input	       CLOCK_50,
 					  output  [3:0] DRAM_DQM,
 					  output		    DRAM_RAS_N,
 					  output		    DRAM_WE_N,
-					  output		    DRAM_CLK
+					  output		    DRAM_CLK,
+					  input	[15:0] SW
 				  
 				  );
+				  
+				 logic [19:0] fpga_input_data;
+				 assign fpga_input_data = {SW[15:0], ~KEY[3:0]};
 				  
 				  // You need to make sure that the port names here are identical to the port names at 
 				  // the interface in lab7_soc.v
 				  lab7_soc m_lab7_soc (.clk_clk(CLOCK_50),
-											 .reset_reset_n(KEY[0]), 
+											 .reset_reset_n(KEY[0]),
+											 
 											 .led_wire_export(LEDG),
 											 .sdram_wire_addr(DRAM_ADDR),    //  sdram_wire.addr
 											 .sdram_wire_ba(DRAM_BA),      	//  .ba
@@ -38,8 +43,11 @@ module lab7(  	  input	       CLOCK_50,
 											 .sdram_wire_dqm(DRAM_DQM),     	//  .dqm
 											 .sdram_wire_ras_n(DRAM_RAS_N),    //  .ras_n
 											 .sdram_wire_we_n(DRAM_WE_N),      //  .we_n
-											 .sdram_clk_clk(DRAM_CLK)			//  clock out to SDRAM from other PLL port
+											 .sdram_clk_clk(DRAM_CLK),			//  clock out to SDRAM from other PLL port
+											 .fpga_input_export(fpga_input_data)
 											 );
 											 
-				//Instantiate additional FPGA fabric modules as needed		  
+											 
+				//Instantiate additional FPGA fabric modules as needed
+					
 endmodule

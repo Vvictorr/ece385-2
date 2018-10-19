@@ -11,6 +11,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1539803594493"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_sMx3kNJAEeihnsCiiBcT0w" selectedElement="_sMx3kdJAEeihnsCiiBcT0w" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_sMx3kdJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_4DSykNJAEeihnsCiiBcT0w">
         <children xsi:type="advanced:Perspective" xmi:id="_4DSykNJAEeihnsCiiBcT0w" elementId="com.altera.sbtgui.ui.cPerspective" selectedElement="_4DSykdJAEeihnsCiiBcT0w" label="Nios II" iconURI="platform:/plugin/com.altera.sbtgui.ui/icons/sbtgui_persp.gif">
@@ -44,6 +45,7 @@
           <tags>persp.newWizSC:com.altera.sbtgui.ui.newLibrary</tags>
           <tags>persp.perspSC:com.altera.sbtgui.ui.debugPerspective</tags>
           <tags>persp.viewSC:com.altera.sbtgui.launch.hardware.ByteStreamConsoleView</tags>
+          <tags>persp.actionSet:org.eclipse.debug.ui.debugActionSet</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_4DSykdJAEeihnsCiiBcT0w" selectedElement="_4DSyl9JAEeihnsCiiBcT0w" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_4DSyktJAEeihnsCiiBcT0w" elementId="topLeft" containerData="3127" selectedElement="_4DSyk9JAEeihnsCiiBcT0w">
               <children xsi:type="advanced:Placeholder" xmi:id="_4DSyk9JAEeihnsCiiBcT0w" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_sXmnzdJAEeihnsCiiBcT0w"/>
@@ -51,7 +53,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_4DSyldJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_sXmnz9JAEeihnsCiiBcT0w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_4DSyltJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_sXmn0NJAEeihnsCiiBcT0w"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_4DSyl9JAEeihnsCiiBcT0w" containerData="6873" selectedElement="_4DSymNJAEeihnsCiiBcT0w">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_4DSyl9JAEeihnsCiiBcT0w" containerData="6873" selectedElement="_4DSynNJAEeihnsCiiBcT0w">
               <children xsi:type="basic:PartSashContainer" xmi:id="_4DSymNJAEeihnsCiiBcT0w" containerData="7500" selectedElement="_4DSymdJAEeihnsCiiBcT0w" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSymdJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_sXc2gtJAEeihnsCiiBcT0w"/>
                 <children xsi:type="basic:PartStack" xmi:id="_4DSymtJAEeihnsCiiBcT0w" elementId="topRight" containerData="1000" selectedElement="_4DSym9JAEeihnsCiiBcT0w">
@@ -59,12 +61,14 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_4DSynNJAEeihnsCiiBcT0w" elementId="bottom" containerData="2500" selectedElement="_4DSyn9JAEeihnsCiiBcT0w">
+                <tags>Debug</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSyndJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.ProblemView" ref="_sXmn0dJAEeihnsCiiBcT0w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSyntJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.TaskList" ref="_sXmn0tJAEeihnsCiiBcT0w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSyn9JAEeihnsCiiBcT0w" elementId="org.eclipse.ui.console.ConsoleView" ref="_sXmn09JAEeihnsCiiBcT0w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSyoNJAEeihnsCiiBcT0w" elementId="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:*" toBeRendered="false" ref="_sXmn1NJAEeihnsCiiBcT0w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSyodJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.PropertySheet" ref="_sXmn1dJAEeihnsCiiBcT0w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_4DSyotJAEeihnsCiiBcT0w" elementId="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView" toBeRendered="false" ref="_sXmn19JAEeihnsCiiBcT0w"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_a8c8YNNKEeiJ0owc36n-FQ" elementId="org.eclipse.debug.ui.DebugView" ref="_1aBDMNJAEeihnsCiiBcT0w"/>
               </children>
             </children>
           </children>
@@ -94,7 +98,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_AgWpANJCEeihnsCiiBcT0w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;lab7_app/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/lab7_app/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;588&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;lab7_app/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/lab7_app/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;654&quot; selectionTopPixel=&quot;225&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
@@ -126,7 +130,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_sXmn0dJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors (2 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_sig3ANJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.views.ProblemView">
@@ -172,14 +176,14 @@
       <tags>categoryTag:Nios II</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_1aBDMNJAEeihnsCiiBcT0w" elementId="org.eclipse.debug.ui.DebugView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Debug" iconURI="platform:/plugin/org.eclipse.debug.ui/icons/full/eview16/debug_view.png" tooltip="" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Debug</tags>
-      <tags>active</tags>
       <menus xmi:id="_1b22QNJAEeihnsCiiBcT0w" elementId="org.eclipse.debug.ui.DebugView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_1b22QdJAEeihnsCiiBcT0w" elementId="org.eclipse.debug.ui.DebugView"/>
+      <toolbar xmi:id="_1b22QdJAEeihnsCiiBcT0w" elementId="org.eclipse.debug.ui.DebugView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_1aBqQNJAEeihnsCiiBcT0w" elementId="org.eclipse.debug.ui.VariableView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Variables" iconURI="platform:/plugin/org.eclipse.debug.ui/icons/full/eview16/variable_view.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -213,7 +217,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sNb-4tJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_h8T9B9LzEeiSFPYm3R_gOQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sAH9rdJAEeihnsCiiBcT0w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_PbE20dM9EeiJ0owc36n-FQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sAH9rdJAEeihnsCiiBcT0w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sNb-49JAEeihnsCiiBcT0w" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -237,7 +241,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sNb-59JAEeihnsCiiBcT0w" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_h8T9EtLzEeiSFPYm3R_gOQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sAH9H9JAEeihnsCiiBcT0w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_PbE23NM9EeiJ0owc36n-FQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sAH9H9JAEeihnsCiiBcT0w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sNb-6NJAEeihnsCiiBcT0w" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -645,6 +649,7 @@
   <bindingTables xmi:id="_sXmnyNJAEeihnsCiiBcT0w" bindingContext="_sXmnx9JAEeihnsCiiBcT0w"/>
   <bindingTables xmi:id="_sXmnytJAEeihnsCiiBcT0w" bindingContext="_sXmnydJAEeihnsCiiBcT0w"/>
   <bindingTables xmi:id="_sXmnzNJAEeihnsCiiBcT0w" bindingContext="_sXmny9JAEeihnsCiiBcT0w"/>
+  <bindingTables xmi:id="_a8agIdNKEeiJ0owc36n-FQ" bindingContext="_a8agINNKEeiJ0owc36n-FQ"/>
   <rootContext xmi:id="_r_rPtNJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_r_rPtdJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_r_rPttJAEeihnsCiiBcT0w" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -720,6 +725,7 @@
   <rootContext xmi:id="_sXmnx9JAEeihnsCiiBcT0w" elementId="org.eclipse.ui.WorkingSetActionSet" name="Auto::org.eclipse.ui.WorkingSetActionSet"/>
   <rootContext xmi:id="_sXmnydJAEeihnsCiiBcT0w" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
   <rootContext xmi:id="_sXmny9JAEeihnsCiiBcT0w" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
+  <rootContext xmi:id="_a8agINNKEeiJ0owc36n-FQ" elementId="com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchConfiguration.internal.org.eclipse.debug.ui.DebugPerspective" name="Auto::com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchConfiguration.internal.org.eclipse.debug.ui.DebugPerspective"/>
   <descriptors xmi:id="_sCcP0NJAEeihnsCiiBcT0w" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>

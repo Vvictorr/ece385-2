@@ -230,7 +230,9 @@ set_clock_groups -asynchronous -group [get_clocks {altera_reserved_tck}]
 #**************************************************************
 # Set False Path
 #**************************************************************
-
+set_false_path -from * -to [get_ports LEDG*]
+set_false_path -to [get_ports SW*] -from *
+set_false_path -to [get_ports KEY*] -from *
 set_false_path -from [get_registers {*altera_avalon_st_clock_crosser:*|in_data_buffer*}] -to [get_registers {*altera_avalon_st_clock_crosser:*|out_data_buffer*}]
 set_false_path -to [get_keepers {*altera_std_synchronizer:*|din_s1}]
 set_false_path -to [get_pins -nocase -compatibility_mode {*|alt_rst_sync_uq1|altera_reset_synchronizer_int_chain*|clrn}]

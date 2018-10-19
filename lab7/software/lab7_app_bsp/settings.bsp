@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Oct 18, 2018 11:36:26 AM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1539880586696</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Oct 18, 2018 10:25:27 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1539919527388</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\intelFPGA_lite\18.0\ece385\lab7\software\lab7_app_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\lab7_soc.sopcinfo</SopcDesignFile>
@@ -896,6 +896,12 @@
                 <slaveDescriptor>sysid_qsys_0</slaveDescriptor>
                 <addressRange>0x00000058 - 0x0000005F</addressRange>
                 <addressSpan>8</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>switches</slaveDescriptor>
+                <addressRange>0x00002000 - 0x0000200F</addressRange>
+                <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>

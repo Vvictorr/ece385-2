@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'lab7_soc'
  * SOPC Builder design path: ../../lab7_soc.sopcinfo
  *
- * Generated: Thu Oct 18 11:33:40 CDT 2018
+ * Generated: Thu Oct 18 21:49:07 CDT 2018
  */
 
 /*
@@ -291,6 +291,33 @@
 
 
 /*
+ * switches configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_switches altera_avalon_pio
+#define SWITCHES_BASE 0x2000
+#define SWITCHES_BIT_CLEARING_EDGE_REGISTER 0
+#define SWITCHES_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define SWITCHES_CAPTURE 0
+#define SWITCHES_DATA_WIDTH 20
+#define SWITCHES_DO_TEST_BENCH_WIRING 0
+#define SWITCHES_DRIVEN_SIM_VALUE 0
+#define SWITCHES_EDGE_TYPE "NONE"
+#define SWITCHES_FREQ 50000000
+#define SWITCHES_HAS_IN 1
+#define SWITCHES_HAS_OUT 0
+#define SWITCHES_HAS_TRI 0
+#define SWITCHES_IRQ -1
+#define SWITCHES_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define SWITCHES_IRQ_TYPE "NONE"
+#define SWITCHES_NAME "/dev/switches"
+#define SWITCHES_RESET_VALUE 0
+#define SWITCHES_SPAN 16
+#define SWITCHES_TYPE "altera_avalon_pio"
+
+
+/*
  * sysid_qsys_0 configuration
  *
  */
@@ -302,7 +329,7 @@
 #define SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_QSYS_0_NAME "/dev/sysid_qsys_0"
 #define SYSID_QSYS_0_SPAN 8
-#define SYSID_QSYS_0_TIMESTAMP 1539880343
+#define SYSID_QSYS_0_TIMESTAMP 1539917278
 #define SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

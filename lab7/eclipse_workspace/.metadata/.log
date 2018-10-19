@@ -176,3 +176,166 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 11:36:54.854
 !MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539880343 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+!SESSION 2018-10-18 20:19:35.469 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 20:21:49.155
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 20:21:49.200
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539880343]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 20:21:51.074
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539880343 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 21:50:17.481
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:50:17.539
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:50:19.539
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 21:53:47.078
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:53:47.083
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:53:48.863
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:55:06.117
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 21:55:06.719
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:55:06.724
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x58 --id=0x0 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 21:55:08.854
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x58 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:01:35.383
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:01:35.388
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:01:37.205
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:04:47.784
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:04:47.789
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:04:49.610
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:06:16.602
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:06:16.606
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:06:18.421
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:10:57.831
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:10:57.836
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:10:59.662
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:13:00.654
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:13:00.659
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:13:02.467
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:13:54.080
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:13:54.085
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:13:55.886
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:19:13.607
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:19:13.612
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:19:15.452
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:20:53.214
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:20:53.219
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:20:55.013
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:24:05.129
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:24:05.134
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:24:06.950
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:25:46.893
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:25:46.898
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:25:48.675
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:27:46.176
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:27:46.181
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:27:48.028
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:30:58.055
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:30:58.060
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:30:59.889
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-10-18 22:32:28.636
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:32:28.641
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x58 --id=0x0 --timestamp=1539917278]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-18 22:32:30.450
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x58 --id=0x0 --timestamp=1539917278 /cygdrive/c/intelFPGA_lite/18.0/ece385/lab7/software/lab7_app/lab7_app.elf]
