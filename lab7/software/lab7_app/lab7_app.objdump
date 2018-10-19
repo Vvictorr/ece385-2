@@ -79,7 +79,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  30 .jdi          00003db5  00000000  00000000  0000ab35  2**0
                   CONTENTS, READONLY
- 31 .sopcinfo     0004f585  00000000  00000000  0000e8ea  2**0
+ 31 .sopcinfo     00052061  00000000  00000000  0000e8ea  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 10000000 l    d  .entry	00000000 .entry
@@ -428,8 +428,8 @@ int main()
 100001c4:	d839883a 	mov	fp,sp
 	while (1 != 2)
 //		*LED_PIO = 0xF;
-		accumulator();
-100001c8:	00000ec0 	call	100000ec <accumulator>
+		lightMeUpGreen();
+100001c8:	000005c0 	call	1000005c <lightMeUpGreen>
 100001cc:	003ffe06 	br	100001c8 <__alt_data_end+0xf80001c8>
 
 100001d0 <alt_load_section>:
@@ -1059,7 +1059,7 @@ void altera_nios2_gen2_irq_init(void)
 10000728:	d9400015 	stw	r5,0(sp)
 1000072c:	d9800115 	stw	r6,4(sp)
 10000730:	d9c00215 	stw	r7,8(sp)
-10000734:	00000000 	call	10000000 <__reset>
+10000734:	00000000 	call	10000000 <__alt_mem_sdram>
 10000738:	d9400017 	ldw	r5,0(sp)
 1000073c:	d9800117 	ldw	r6,4(sp)
 10000740:	d9c00217 	ldw	r7,8(sp)
@@ -1143,7 +1143,7 @@ void altera_nios2_gen2_irq_init(void)
 10000870:	10003226 	beq	r2,zero,1000093c <__call_exitprocs+0x178>
 10000874:	a009883a 	mov	r4,r20
 10000878:	98800015 	stw	r2,0(r19)
-1000087c:	00000000 	call	10000000 <__reset>
+1000087c:	00000000 	call	10000000 <__alt_mem_sdram>
 10000880:	9d000017 	ldw	r20,0(r19)
 10000884:	a03fe41e 	bne	r20,zero,10000818 <__alt_data_end+0xf8000818>
 10000888:	dfc00a17 	ldw	ra,40(sp)

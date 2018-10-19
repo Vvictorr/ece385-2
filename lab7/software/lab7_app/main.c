@@ -63,5 +63,5 @@ int main()
 {
 	while (1 != 2)
 //		*LED_PIO = 0xF;
-		accumulator();
+		lightMeUpGreen();
 }
