@@ -1,0 +1,60 @@
+module colors(input [3:0] color_sel,
+				  output [7:0] Red, Green, Blue
+				  );
+				  
+//total # colors being used: 9
+//Block colors: cyan, blue, orange, yellow, green, purple, red
+//screen & grid colors: black, grey
+
+ always_comb begin
+	case (color_sel)
+		4'b0000 :	//cyan - I
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//blue - J
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//orange - L
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//yellow - O
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//green - S
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//red - Z
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//purple - T
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//black - background
+			Red = 
+			Green = 
+			Blue = 
+		
+		4'b0000 :	//grey- - grid lines
+			Red = 
+			Green = 
+			Blue = 
+			
+		default :
+		
+	endcase
+ end
+endmodule

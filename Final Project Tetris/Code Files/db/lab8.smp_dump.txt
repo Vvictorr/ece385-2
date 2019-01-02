@@ -1,0 +1,11 @@
+
+State Machine - |tetris_top|rotate_block:rotate_block_inst|current_state
+Name current_state.Rotate_3_wait current_state.Rotate_3 current_state.Rotate_2_wait current_state.Rotate_2 current_state.Rotate_1_wait current_state.Rotate_1 current_state.Rotate_0_wait current_state.Rotate_0 
+current_state.Rotate_0 0 0 0 0 0 0 0 0 
+current_state.Rotate_0_wait 0 0 0 0 0 0 1 1 
+current_state.Rotate_1 0 0 0 0 0 1 0 1 
+current_state.Rotate_1_wait 0 0 0 0 1 0 0 1 
+current_state.Rotate_2 0 0 0 1 0 0 0 1 
+current_state.Rotate_2_wait 0 0 1 0 0 0 0 1 
+current_state.Rotate_3 0 1 0 0 0 0 0 1 
+current_state.Rotate_3_wait 1 0 0 0 0 0 0 1 

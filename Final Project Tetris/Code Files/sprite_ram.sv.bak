@@ -1,0 +1,49 @@
+module O_block(input Clk,
+					input [18:0] addr,
+					output [3:0] data
+				  );
+
+ logic [3:0] OCM[361];	//361 addresses
+
+ initial begin
+	$readmemh("sprite_bytes/O_block.txt", OCM);
+ end
+
+ always_ff @(posedge Clk) begin
+	data <= OCM[addr];
+ end
+endmodule
+
+
+module I_vert_block(input Clk,
+						  input [18:0] addr,
+						  output [3:0] data
+						 );
+
+ logic [3:0] OCM[370];	//370 addresses
+
+ initial begin
+	$readmemh("sprite_bytes/I_vert_block.txt", OCM);
+ end
+
+ always_ff @(posedge Clk) begin
+	data <= OCM[addr];
+ end
+endmodule
+
+
+module I_horiz_block(input Clk,
+							input [18:0] addr,
+							output [3:0] data
+						  );
+
+ logic [3:0] OCM[370];	//370 addresses
+
+ initial begin
+	$readmemh("sprite_bytes/I_horiz_block.txt", OCM);
+ end
+
+ always_ff @(posedge Clk) begin
+	data <= OCM[addr];
+ end
+endmodule

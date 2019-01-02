@@ -1,0 +1,10 @@
+module rotate_block(input Clk, Reset,
+						  input keypress,
+						  input [7:0] keycode, 
+						  output rot_sel
+						  );
+//W = 1D
+always_ff @(posedge Clk) begin
+	if (Reset) 
+	if (keypress == 1'b1)
+		if (keycode == 8'h1d)

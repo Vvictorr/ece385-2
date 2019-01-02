@@ -1,0 +1,39 @@
+module choose_block(input block_sel,
+						  input [1:0] rot_sel,
+						  output O_block, I_vert_block, I_horiz_block
+						 ); //also output block sizes into block_motion module
+						 
+always_comb begin
+	case (block_sel)
+		8'd0 :	//choose O block
+			if (rot_sel == 2'd0 || 2'd1 || 2'd2 || 2'd3)
+			
+		8'd1 :	//choose I block
+			if (rot_Sel == 2'd0 || 2'd2	//choose horizontal I block
+			
+			else if (rot_sel == 2'd1 || 2'd3)	//choose vertical I block
+			
+		8'd2 :	//choose S block
+			
+		8'd3 :	//choose Z block
+		
+		8'd4
+		
+		8'd5
+			
+
+
+
+	
+logic [9:0] pointer;
+logic [9:0] index;
+logic new_shape;
+logic [9:0] counter;
+
+assign block_sel = 
+
+always_comb begin
+	pointer = 10'd0;
+	
+	
+LFSR_out[now]
